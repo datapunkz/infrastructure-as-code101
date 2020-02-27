@@ -12,7 +12,7 @@ This workshop introduces the basic concepts of infrastructure as code (IaC) and 
 
 Before you get started you'll need to have these things:
 
-- [Google Cloud account][2]{:target="new"}
+- [Google Cloud account][2]
 - [Create a Google Cloud Project][3]{:target="new"}
 - [Create a Pulumi API Token and save it][4]{:target="new"}
 - [Install the Google Cloud SDK CLI locally][5]{:target="new"}
@@ -306,7 +306,7 @@ Congratulations you've just leveled up and now have experience provisioning and 
 
 
 [1]: https://hub.docker.com/search/?type=edition&offering=community
-[2]: https://cloud.google.com/free
+[2]: (https://cloud.google.com/free){:target="new"}
 [3]: https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project
 [4]: https://app.pulumi.com/
 [5]: https://cloud.google.com/sdk/docs/quickstarts

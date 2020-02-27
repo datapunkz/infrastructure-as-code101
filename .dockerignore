@@ -1,0 +1,55 @@
+#Security/Credentials Ignores
+cicd_demo_gcp_creds.json
+
+#Terraform Ignore file
+*.dll
+*.exe
+.DS_Store
+example.tf
+.terraform/
+terraform.tfplan
+terraform.tfstate
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+./*.tfstate
+.terraform/
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+*.iml
+plan.txt
+website/vendor
+namecheap.tf
+
+# Test exclusions
+!command/test-fixtures/**/*.tfstate
+!command/test-fixtures/**/.terraform/
+
+#Pulumi ignores
+/.pulumi/
+/.vscode/
+bin/
+node_modules/
+*.pyc
+.Python
+include/
+lib/
+yarn.lock
+package-lock.json
+# Pulumi.*.yaml
+.idea/
+*.iml
+
+#Pipenv
+Pipfile.lock

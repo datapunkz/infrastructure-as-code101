@@ -1,6 +1,6 @@
 # Infrastructure as Code 101 Workshop
 
-This workshop introduces the basic concepts of infrastructure as code (IaC) and is a step by step guide teaches you how to manage modern cloud infrastructures using relevant Cloud Native technologies. Infrastructure as code (IaC) is the process of managing and provisioning cloud and IT resources via machine readable definition files. IaC enables organizations to provision, manage, and destroy compute resources using modern DevOps tools such as [Terraform][6]{:target="new"} and [Pulumi][7]{:target="new"} tools.
+This workshop introduces the basic concepts of infrastructure as code (IaC) and is a step by step guide teaches you how to manage modern cloud infrastructures using relevant Cloud Native technologies. Infrastructure as code (IaC) is the process of managing and provisioning cloud and IT resources via machine readable definition files. IaC enables organizations to provision, manage, and destroy compute resources using modern DevOps tools such as [Terraform][6] and [Pulumi][7] tools.
 
 ## Goals
 
@@ -13,20 +13,20 @@ This workshop introduces the basic concepts of infrastructure as code (IaC) and 
 Before you get started you'll need to have these things:
 
 - [Google Cloud account][2]
-- [Create a Google Cloud Project][3]{:target="new"}
-- [Create a Pulumi API Token and save it][4]{:target="new"}
-- [Install the Google Cloud SDK CLI locally][5]{:target="new"}
-- [Install the Docker Client locally][1]{:target="new"}
+- [Create a Google Cloud Project][3]
+- [Create a Pulumi API Token and save it][4]
+- [Install the Google Cloud SDK CLI locally][5]
+- [Install the Docker Client locally][1]
 
 ### Create a Google Cloud Platform project
 
-Use these instructions to [create a new Google Cloud project][3]{:target="new"} in the google cloud web console.
+Use these instructions to [create a new Google Cloud project][3] in the google cloud web console.
 
 ### Create and get Google Cloud Project credentials
 
-After creating a new project, you will need to create [Google Cloud credentials][10]{:target="new"} in order to perform administrative actions using IaC tooling. 
+After creating a new project, you will need to create [Google Cloud credentials][10] in order to perform administrative actions using IaC tooling. 
 
-- Go to the [Create Service Account Key page][11]{:target="new"}. 
+- Go to the [Create Service Account Key page][11]. 
 - Select the default service account or create a new one, select JSON as the key type, and click **Create**. 
 - Save this JSON file in the `~/.config/gcloud/`directory and **rename** the file to `cicd_demo_gcp_creds.json`. This very **important** for enabling the gcloud cli in the container later on.
 
@@ -34,7 +34,7 @@ After creating a new project, you will need to create [Google Cloud credentials]
 
 You'll need to get a Pulumi API to store your project state on Pulumi's backed cloud.
 
-- Go to [app.pulumi.com/][4]{:target="new"}
+- Go to [app.pulumi.com/][4]
 - Click > ***Select and Organization*** dropdown on the upper left side of the page and select your account
 - Click > ***Settings*** on the page
 - Click > ***Access Tokens*** on the left side of the page
@@ -298,15 +298,15 @@ Run `pulumi destroy` in the terminal and select the `yes` option when prompted t
 
 ## Summary
 
-Congratulations you've just leveled up and now have experience provisioning and deploying applications to GCP using modern Infrastructure as Code tools [Terraform][6]{:target="new"} and [Pulumi][7]{:target="new"}. There is still lots to learn and I encourage you to start expanding your IaC skills. You can use the following resources to expand your knowledge:
+Congratulations you've just leveled up and now have experience provisioning and deploying applications to GCP using modern Infrastructure as Code tools [Terraform][6] and [Pulumi][7]. There is still lots to learn and I encourage you to start expanding your IaC skills. You can use the following resources to expand your knowledge:
 
-- [Terraform Getting Started][12]{:target="new"}
-- [Pulumi Getting Started][13]{:target="new"}
-- [Docker Getting Started][14]{:target="new"}
+- [Terraform Getting Started][12]
+- [Pulumi Getting Started][13]
+- [Docker Getting Started][14]
 
 
 [1]: https://hub.docker.com/search/?type=edition&offering=community
-[2]: (https://cloud.google.com/free){:target="new"}
+[2]: https://cloud.google.com/free
 [3]: https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project
 [4]: https://app.pulumi.com/
 [5]: https://cloud.google.com/sdk/docs/quickstarts
